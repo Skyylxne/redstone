@@ -1,0 +1,33 @@
+.desktop-1,
+.desktop-1 * {
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #262626;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.redstone-staub-1 {
+  width: 56px;
+  height: 52px;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  box-shadow: inset 0px 4px 123.6px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.redstone {
+  color: #971005;
+  text-align: center;
+  font-family: "Moon20-Bold", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  position: absolute;
+  left: 55px;
+  top: 8px;
+  width: 289px;
+  height: 66px;
+  filter: blur(0.25px);
+}
