@@ -1,5 +1,5 @@
 body {
-    background-color: #191919;
+    background-color: #161924;
     margin: 0;
     padding: 20px;
     font-family: 'Verdana', monospace;
@@ -31,7 +31,7 @@ body {
 }
 
 .post {
-    background-color: #111;
+    background-color: #111111;
     padding: 15px;
     border: 2px solid #b20000;
     border-radius: 15px;
@@ -52,7 +52,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     background-color: #9f0000;
-    color: #000;
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
