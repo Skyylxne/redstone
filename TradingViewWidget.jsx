@@ -13,7 +13,7 @@ function TradingViewWidget() {
       script.innerHTML = `
         {
           "autosize": true,
-          "symbol": "BITSTAMP:BTCUSD",
+          "symbol": "BITSTAMP:SOLEUR",
           "interval": "D",
           "timezone": "Europe/Berlin",
           "theme": "dark",
