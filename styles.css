@@ -15,9 +15,8 @@ strong {
   color: #212121;
 }
 
-header {
+.header {
   background-color: #1c1d21;
-  font-size: 20px;
   font-family: 'Verdana', monospace;
   color: #940c0c;
   display: flex;
@@ -29,11 +28,16 @@ header {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.title {
+  font-size: 40px;
+}
+
 main {
-  padding: 0px 20px 0;
-  display: flex;
+  padding: 120px 50px;
+  display: flex; 
   flex-direction: column;
-  height: 45%;
+  justify-content: center;
+  align-items: center;
 }
 
 main > div {
@@ -43,6 +47,7 @@ main > div {
 
 main h2 {
   color: #b41a1a;
+  font-size: 25px;
 }
 
 main p {
@@ -50,6 +55,7 @@ main p {
   font-weight: 550;
   margin: 20px 0;
   color: #b41a1a;
+  font-size: 20px;
 }
 
 main small {
@@ -127,13 +133,13 @@ main small {
 #nav-content {
   margin-top: 70px;
   padding: 20px;
-  width: 90%;
+  width: 100%;
   max-width: 300px;
   position: absolute;
   top: 0;
   left: 0;
   height: calc(100% - 70px);
-  background: #940c0c96;
+  background: #680909;
   pointer-events: auto;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   transform: translateX(-100%);
@@ -227,19 +233,110 @@ img {
 }
 
 body {
-    background-color: #1c1d21;
-    font-family: sans-serif;
-}
-
-.header {
-    text-align: left;
-    margin-bottom: 0px;
+  background-color: #1c1d21;
+  font-family: sans-serif;
 }
 
 .redstone-staub-1 {
-    width: 56px;
-    height: 52px;
-    position: absolute;
-    left: 450px;
-    top: 8px;
+  width: 56px;
+  height: 52px;
+}
+
+@media screen and (max-width: 550px) {
+  
+  .title {
+    font-size: 37.5px;
+  }
+
+  main h2 {
+    font-size: 23px;
+  }
+
+  main p {
+    font-size: 19px;
+  }
+
+  .redstone-staub-1 {
+    width: 52.5px;
+    height: 48.75px;
+  }
+  
+}
+
+@media screen and (max-width: 500px) {
+  
+  main h2 {
+    font-size: 22px;
+  }
+
+  main p {
+    font-size: 18px;
+  }
+
+  #nav-content li a {
+    font-size: 18px;
+  }
+  
+}
+
+@media screen and (max-width: 450px) {
+  
+  .title {
+    font-size: 35px;
+  }
+
+  main h2 {
+    font-size: 21px;
+  }
+
+  main p {
+    font-size: 17px;
+  }
+
+  #nav-content {
+    max-width: 200px;
+  }
+
+  .redstone-staub-1 {
+    width: 49px;
+    height: 45px;
+  }
+  
+}
+
+@media screen and (max-width: 400px) {
+
+  .title {
+    font-size: 30px;
+  }
+
+  main h2 {
+    font-size: 20px;
+  }
+
+  main p {
+    font-size: 15px;
+  }
+
+  #nav-content li a {
+    font-size: 16px;
+  }
+
+  .redstone-staub-1 {
+    width: 42px;
+    height: 39px;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+
+  main h2 {
+    font-size: 18px;
+  }
+
+  main p {
+    font-size: 13px;
+  }
+
 }
